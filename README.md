@@ -1,2 +1,25 @@
-# house-price-visualization-platform
-short_term_work
+# 杭州餐饮多维数据可视化
+
+本仓库用于保存杭州餐饮多维数据可视化项目的数据、AI 提示词记录和每日日报。
+
+## 目录结构
+
+```text
+.
+├── 数据采集/
+│   ├── hangzhou_catering_combined.csv  # 杭州餐饮整合数据
+│   └── data_dictionary.md              # 数据字典
+├── prompts/                            # 每日 AI 对话记录
+│   └── 25051304/
+│       └── D2.pdf
+└── daily/                              # 每日日报
+    └── 25051304/
+        └── D2.md
+```
+
+## 每日提交要求
+
+- 提示词记录放在 `prompts/` 中，并按当天序号归档。
+- 每使用一个 AI Coding 工具，分别保存一份记录。
+- 每天 22:00 前将当日日报提交到 `daily/`。
+- 提交公开仓库前检查文件，避免包含密码、Token 等敏感信息。
